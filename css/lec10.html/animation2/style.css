@@ -1,0 +1,54 @@
+.container{
+    width:100%;
+    height:215px;
+    background-color:yellow;
+    border:2px solid black;
+}
+.box{
+    border:2px solid green;
+    height:212px;
+    width:212px;
+    background-color:aqua;
+
+    animation-name:sahil;
+    animation-duration:3s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in;
+    animation-delay:1s ;
+    animation-direction:normal;
+    animation-fill-mode:forward ;
+
+}
+/* @keyframes sahil{
+
+    from{
+        width:212px;
+    }
+    to{
+        width:800px;
+    }
+} */
+
+@keyframes sahil{
+    0%{
+        width:212px;
+        background-color: aquamarine;
+
+    }
+
+    30%{
+        width:35%;
+        background-color: blue;
+
+      
+    }
+    65%{
+        width:70%;
+        background-color:violet;
+        
+    }
+    100%{
+       width:100%;
+       background-color:blueviolet;
+    }
+}

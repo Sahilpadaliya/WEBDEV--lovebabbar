@@ -1,0 +1,15 @@
+ /* h1{
+    text-shadow: 3px 3px 3px green;
+    text-shadow: 3px 3px 3px blueviolet;
+     /* multiple shadow   */
+    /* text-shadow: 3px 3px 3px blueviolet , 10px 40px 3px yellow  */
+ /* }  */ 
+   .box {
+    color: red;
+    width: 200px;
+    height: 200px;
+    /* box-shadow : -10px -10px 10px green; <!--to change the position of the shadow-->  */
+    box-shadow : 10px 10px 10px green;
+    border:1px solid black
+
+}

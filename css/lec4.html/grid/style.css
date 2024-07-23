@@ -1,0 +1,80 @@
+/* /* *{   
+    margin:0;
+    padding:0;
+    border:3px solid black;
+
+} */
+/* .container{
+    background-color:brown;
+    height : 500px;
+    border:1px solid black;
+    display:grid; */
+    /* grid-template-columns: 200px 200px 210px;
+    grid-template-columns: 90px 90px 90px; */
+    /* grid-template-columns:  1fr 1fr 1fr; /*entire column width in equal part  */
+    /* grid-template-columns:  1fr 1fr 1fr; */ 
+    /* intead of writing all 1fr shortnation can be used */
+    /* grid-template-columns: repeat(3, 1fr);  */
+    /* grid-template-columns:   repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    /* gap:15px;
+}
+.box{
+    background-color: aqua;
+    border:3px solid black;
+    /* height:80px;
+    width:80px; */ 
+/* }
+#box1{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+#box3{
+    grid-row-start: 2;
+    grid-row-end:4;
+} */ 
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* 
+*{   
+    margin:0;
+    padding:0;
+    border:3px solid black;
+
+}  */
+ .container{
+    background-color:brown;
+    height : 500px;
+    border:1px solid black;
+    /* display:grid;  */
+    /* grid-template-columns: 200px 200px 210px;
+    grid-template-columns: 90px 90px 90px; */
+    /* grid-template-columns:  1fr 1fr 1fr; /*entire column width in equal part  */
+    /* grid-template-columns:  1fr 1fr 1fr; */ 
+    /* intead of writing all 1fr shortnation can be used */
+    /* grid-template-columns:repeat(3, 1fr);  
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+     gap:15px; */
+}
+.box{
+    background-color: aqua;
+    border:3px solid black;
+    height:80px;
+    width:80px;  
+ }
+/* #box1{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+#box3{
+    grid-row-start: 2;
+    grid-row-end:4;
+}  */
+
+
+
+
+
+
