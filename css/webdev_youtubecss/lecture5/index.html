@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        border:  1px solid black;
+    }
+    img{
+        margin:10px;
+    }
+
+    /* 1- RELATIVE POSITION PROPERTY  */
+    /* .image2{
+        position:relative;
+        top:100px;
+        left:200px;
+        right:400px;
+    } */
+
+    /* 2- ABSOLUTE POSITION PROPERTY */
+    /* parent ka position relative hona best practice mani jati hai for the absolute position  */
+    /* .container{
+        position:relative;
+    }
+
+    .image2{
+        position: absolute;
+        top:100px;
+        left:200px;
+    } */
+
+
+    /*3- FIXED POSITION PROPERTY  */
+    
+    .seconddiv{
+        background-color: brown;
+        height:5000px;
+    }/*hm logo ne ye seconddiv smjne ke liye kiya hai baki koi jarurat nahi fixed ke liye   */
+    .container{
+        position:relative;
+        height:8000px;
+        background-color:blueviolet;
+
+    }
+   .image4{
+    position:fixed;
+   }
+
+   /* 4- STICKY POSITION PROPERTY  */
+   .image3{
+    position:sticky;
+    top:100px;
+   }
+
+</style>
+<body>
+    <div class="container">
+        <img src="sup1.JPG" alt="poster1" 
+        height="300px" width="300px" class="image1">
+
+        <img src="sup2.JPG" alt="poster2" 
+        height="300px" width="300px" class="image2">
+
+        <img src="sup3.JPG" alt="poster3" 
+        height="300px" width="300px" class="image3">
+
+        <img src="sup4.JPG" alt="poster4" 
+        height="300px" width="300px" class="image4">
+
+    </div>
+
+    <!-- ye wali second div hm sirf sticky ka difference ke liye rkhe hai -->
+   
+    <div class="seconddiv">
+
+
+    </div>
+</body>
+</html>
