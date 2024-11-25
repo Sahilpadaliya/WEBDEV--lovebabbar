@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: brown;
+            --custom-width:330px;
+        }
+
+        .container{
+            background-color: beige;
+            height:650px;
+            border:2px solid black;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .box{
+            background-color: aquamarine;
+            /* width:330px; */
+            height:330px;
+            border:1px solid brown;
+            margin:5px;
+            padding:5px;
+
+            width:var(--custom-width);
+            border: 1px solid var(--primary-color);
+            /* box shadow in +x offeset */
+            /* box-shadow:10px 15px brown; */
+
+            /* box shadow in -x offset  */
+            /* box-shadow:-10px 15px red; */
+
+            /* box shadow in blur radius  */
+            /* box-shadow: 10px 150px 50px brown; */
+
+            /* box shadow using blur and spread also  */
+            /* box-shadow : 10px 20px 5px 10px blue ; */
+
+            /*  box shadow ko inside le jane ke liye  */
+            /* box-shadow : inset 10px 15px brown ; */
+
+            /*  multiple shadow ko apply krne ke liye  */
+            /* box-shadow : 10px 15px red , 15px 8px green  */
+
+
+
+ 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="" alt="">
+            <h2>welcome to code help</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, possimus 
+                tenetur voluptate aspernatur, inventore assumenda commodi placeat alias repudiandae
+                 explicabo libero corrupti eligendi similique voluptatibus eaque consectetur ipsa. 
+                 Tempora, non dicta? Quaerat obcaecati, ea quidem distinctio doloribus unde
+                  perspiciatis ut corporis qui provident magnam mollitia tempore eveniet labore, 
+                  aspernatur cupiditate necessitatibus libero illum accusamus? Eum molestiae ratione
+                 maxime, nemo odio nihil similique porro voluptatem illum minima eos facilis magnam
+            </p>
+        </div>
+    </div>
+</body>
+</html>
