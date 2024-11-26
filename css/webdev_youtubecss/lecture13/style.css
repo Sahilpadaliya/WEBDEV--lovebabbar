@@ -1,0 +1,32 @@
+.box{
+    width:400px;
+    height:400px;
+    background-color:beige;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin :auto; */
+
+    transition:all 3s linear 1s;
+
+
+}
+.box:hover{
+    /* transform: rotate(45deg);  there is negative direction also to rotate the the box */
+    transform:rotate(-45deg);
+    transform: scale(2);  
+    transform :skew(-45deg);
+    transform:translate(500px , 500px);
+
+}
+p{
+    font-size: 36px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh
+}
